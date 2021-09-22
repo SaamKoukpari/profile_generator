@@ -12,7 +12,7 @@ rl.question("What's your name? Nicknames are also acceptable :)", (nickname) => 
         rl.question("What's your favourite thing to eat for that meal?", (meal) => {
           rl.question("Which sport is your absolute favourite", (sport) => {
             rl.question("What is your superpower? In a few words, tell us what you are amazing at!", (superpower) => {
-              console.log(`Hi! My name is ${nickname}! And my hobby is crushing it at ${hobby}. My favorite food to eat is ${meal} at ${mealOfDay}. I love to go out and play ${sport} or exercise my ability to ${superpower}`);
+              console.log(`My name is ${nickname}! My hobby is ${hobby}. My favorite food to eat is ${meal} at ${mealOfDay}. I love to go out and play ${sport} or exercise my ability to ${superpower}. My favorit music is ${music}.`);
               rl.close();
             });
           });
